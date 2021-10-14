@@ -1,0 +1,79 @@
+body, html {
+    height: 100%;
+    margin: 0px;
+    margin-top: -11px;
+    margin-left: 22.5px;
+    padding: 0px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(17, 17, 17);
+}
+
+.container {
+    text-align: center;
+    position: relative;
+    top: 10%;
+}
+
+/* 
+----------------
+PROFILES SECTION
+----------------
+*/
+
+.profiles {
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.prfImg {
+    margin: -6px;
+    padding: 12px;
+}
+
+.prfImg > img {
+    margin: 2px;
+    padding: 2px;
+    border: 0.5px solid rgba(255, 255, 255, 0.061);
+    border-radius: 3px;
+}
+
+.prfImg > img:hover {
+    color: rgba(255, 255, 255, 0.787);
+    border: 3px solid rgba(255, 255, 255, 0.787);
+    border-radius: 3px;
+}
+
+#user {
+    font-size: 25px;
+    color: grey;
+}
+
+/* 
+----------------
+BUTTON
+----------------
+*/
+
+.btn {
+    margin: 30px;
+    padding: 30px;
+    text-align: center;
+}
+
+button {
+    margin-top: 30px;
+    font-size: 22px; 
+    color: grey;
+    padding: 10px;
+    background-color: transparent;
+    border: 1.5px solid grey;
+}
+
+button:hover {
+    color: rgba(255, 255, 255, 0.863);
+    border: 1.5px solid rgba(255, 255, 255, 0.863);
+}
